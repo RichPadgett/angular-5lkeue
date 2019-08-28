@@ -23,7 +23,7 @@ export class ProductDetailsComponent implements OnInit {
 
   addToCart() {
     window.alert('Your product has been added to the cart!');
-    this.cartService.addToCart(product);
+    this.cartService.addItemsToCart(this.product);
   }
 
 }
